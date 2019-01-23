@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FastInvader.cs" />
     <Compile Include="Level.cs" />
+    <Compile Include="ShieldedInvader.cs" />
     <Compile Include="Tower2.cs" />
     <Compile Include="Invader2.cs" />
     <Compile Include="Path2.cs" />

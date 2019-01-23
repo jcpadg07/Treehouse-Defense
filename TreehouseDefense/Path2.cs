@@ -2,7 +2,7 @@
 
 namespace TreehouseDefense
 {
-    class Path
+    public class Path
     {
         private readonly MapLocation[] _path;
 

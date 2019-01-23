@@ -2,7 +2,7 @@
 
 namespace TreehouseDefense
 {
-    class Map
+    public class Map
     {
             public readonly int Width;
             public readonly int Height;
@@ -19,9 +19,5 @@ namespace TreehouseDefense
 
         }
 
-      //public bool OnPath(Point point)
-      //{
-      //    return point.X >= 0 && point.X < Width && point.Y = 3;
-      //}
     }
 }
