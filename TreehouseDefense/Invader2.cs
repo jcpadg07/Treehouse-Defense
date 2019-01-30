@@ -2,7 +2,7 @@
 
 namespace TreehouseDefense
 {
-    public class Invader
+    public abstract class Invader : IInvader
     {
         private readonly Path _path;
 
@@ -11,10 +11,11 @@ namespace TreehouseDefense
         protected virtual int StepSize { get; } = 1;
 
         public MapLocation Location => _path.GetLocationAt(_pathStep);
-            
-        public int Health { get; private set; } = 2;
-
+        
+        //True if the invader has reached the end of the path
         public bool HasScored { get { return _pathStep >= _path.Length; } }
+
+        public abstract int Health { get; protected set; }
 
         public bool IsNeutralized { get { return Health <= 0; } }
 

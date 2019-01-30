@@ -43,9 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasicInvader.cs" />
     <Compile Include="FastInvader.cs" />
+    <Compile Include="IInvader.cs" />
     <Compile Include="Level.cs" />
+    <Compile Include="Random.cs" />
+    <Compile Include="ResurrectionInvader.cs" />
     <Compile Include="ShieldedInvader.cs" />
+    <Compile Include="StrongInvader.cs" />
     <Compile Include="Tower2.cs" />
     <Compile Include="Invader2.cs" />
     <Compile Include="Path2.cs" />

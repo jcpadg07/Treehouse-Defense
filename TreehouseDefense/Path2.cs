@@ -19,6 +19,17 @@ namespace TreehouseDefense
 
         }
 
-        
+        public bool IsOnPath(MapLocation location)
+        {
+            foreach(var pathLocation in _path)
+            {
+                if (location.Equals(pathLocation))
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
     }
 }
